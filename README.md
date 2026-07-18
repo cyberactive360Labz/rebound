@@ -1,48 +1,37 @@
 # rebound
-A mordern browser arcade game built with Go,PixiJS and Typescript
 
-Hero Banner
+A modern browser arcade game project.
 
-↓
+## Current status
 
-Project Description
+The repository now includes a runnable frontend scaffold at:
 
-↓
+- `/home/runner/work/rebound/rebound/apps/client`
 
-Features
+## Frontend setup (Vite + TypeScript)
 
-↓
+```bash
+cd /home/runner/work/rebound/rebound/apps/client
+npm install
+```
 
-Architecture Diagram
+## Run locally
 
-↓
+```bash
+cd /home/runner/work/rebound/rebound/apps/client
+npm run dev
+```
 
-Technology Stack
+## Build
 
-↓
+```bash
+cd /home/runner/work/rebound/rebound/apps/client
+npm run build
+```
 
-Screenshots
+## Test
 
-↓
-
-Installation
-
-↓
-
-Running the Project
-
-↓
-
-Project Structure
-
-↓
-
-Roadmap
-
-↓
-
-Contributing
-
-↓
-
-License
+```bash
+cd /home/runner/work/rebound/rebound/apps/client
+npm test
+```
