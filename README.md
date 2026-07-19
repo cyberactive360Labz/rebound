@@ -1,48 +1,45 @@
 # rebound
-A mordern browser arcade game built with Go,PixiJS and Typescript
 
-Hero Banner
+A modern browser arcade game project.
 
-↓
+## Current status
 
-Project Description
+The repository now includes a runnable frontend scaffold at:
 
-↓
+- `/home/runner/work/rebound/rebound/apps/client`
 
-Features
+## Frontend setup (Vite + TypeScript)
 
-↓
+```bash
+cd /home/runner/work/rebound/rebound/apps/client
+npm install
+```
 
-Architecture Diagram
+## Run locally
 
-↓
+```bash
+cd /home/runner/work/rebound/rebound/apps/client
+npm run dev
+```
 
-Technology Stack
+## Build
 
-↓
+```bash
+cd /home/runner/work/rebound/rebound/apps/client
+npm run build
+```
 
-Screenshots
+## Test
 
-↓
+```bash
+cd /home/runner/work/rebound/rebound/apps/client
+npm test
+```
 
-Installation
+## Deploy (GitHub Pages)
 
-↓
+This repository includes `/home/runner/work/rebound/rebound/.github/workflows/deploy-pages.yml` to deploy the frontend automatically.
 
-Running the Project
-
-↓
-
-Project Structure
-
-↓
-
-Roadmap
-
-↓
-
-Contributing
-
-↓
-
-License
+1. Push to the `main` branch.
+2. In GitHub, enable **Pages** and set source to **GitHub Actions**.
+3. The workflow runs tests, builds `/home/runner/work/rebound/rebound/apps/client`, and deploys `dist` to Pages.
